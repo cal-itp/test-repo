@@ -18,5 +18,5 @@ jobs:
           operation: set
           fields: Status
           values: Backlog
-          project-url: ${{ secrets.USB_PROJECT_URL }}
-          github-token: ${{ secrets.USB_PROJECT_TOKEN }}
+          project_url: ${{ secrets.USB_PROJECT_URL }}
+          github_token: ${{ secrets.USB_PROJECT_TOKEN }}
