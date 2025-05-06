@@ -12,11 +12,3 @@ jobs:
         with:
           project-url: ${{ secrets.USB_PROJECT_URL }}
           github-token: ${{ secrets.USB_PROJECT_TOKEN }}
-
-      - uses: EndBug/project-fields@v2
-        with:
-          operation: set
-          fields: Status
-          values: Backlog
-          project_url: ${{ secrets.USB_PROJECT_URL }}
-          github_token: ${{ secrets.USB_PROJECT_TOKEN }}
