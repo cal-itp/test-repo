@@ -1,11 +1,11 @@
-name: "Add issues to project"
+name: "Add to project"
 
 on:
   issues:
     types: [opened]
 
 jobs:
-  add-to-project-dependencies:
+  add-to-project:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@main
